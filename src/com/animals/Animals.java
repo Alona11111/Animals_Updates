@@ -19,4 +19,13 @@ public abstract class Animals {
     public String getName() {return name;}
     public String getWeight() {return weight;}
     public String getHeight() {return height;}
+    
+        @Override
+    public String toString() {
+        return "Animals{" +
+                "name='" + name + '\'' +
+                ", weight=" + weight +
+                ", height='" + height + '\'' +
+                '}';
+    }
 }
